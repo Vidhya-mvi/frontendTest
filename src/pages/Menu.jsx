@@ -4,12 +4,12 @@ import "../index.css";
 import CreateMenuModal from "../components/CreateMenumodal";
 
 import banner from "../assets/banner.png";
-import banner2 from "../assets/banner2.png";
+import banner2 from "../assets/banner(1).png";
 import bgUnderTabs from "../assets/back.png";
 import leftDrink from "../assets/img.png";
-import rightDrink from "../assets/cocktail1 1.png";
-import frame from "../assets/frame.png";
-import frame2 from "../assets/frame(1).png";
+import rightDrink from "../assets/cocktail.png";
+import frame from "../assets/Frame.png";
+import frame2 from "../assets/Frame(1).png";
 
 export default function Menu() {
   const [menus, setMenus] = useState([]);
