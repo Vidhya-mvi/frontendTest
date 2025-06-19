@@ -6,8 +6,8 @@ import CreateMenuModal from "../components/CreateMenumodal";
 import banner from "../assets/banner.png";
 import banner2 from "../assets/banner(1).png";
 import bgUnderTabs from "../assets/back.png";
-import leftDrink from "../assets/img.png";
-import rightDrink from "../assets/cocktail.png";
+// import leftDrink from "../assets/img.png";
+// import rightDrink from "../assets/cocktail.png";
 import frame from "../assets/Frame.png";
 import frame2 from "../assets/Frame(1).png";
 
@@ -127,7 +127,7 @@ export default function Menu() {
      
 
         <img src={frame} alt="Frame Left" className="menu-frame left" />
-        <img src={leftDrink} alt="Left Drink" className="menu-drink left" />
+        {/* <img src={leftDrink} alt="Left Drink" className="menu-drink left" /> */}
         <div className="menu-section">
           <div className="menu-box enlarged-box">
             <h2 className="section-title">
@@ -158,7 +158,7 @@ export default function Menu() {
             </div>
           </div>
         </div>
-        <img src={rightDrink} alt="Right Drink" className="menu-drink right" />
+        {/* <img src={rightDrink} alt="Right Drink" className="menu-drink right" /> */}
         <img src={frame2} alt="Frame Right" className="menu-frame right" />
       </div>
     </div>
