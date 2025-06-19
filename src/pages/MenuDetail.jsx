@@ -11,7 +11,7 @@ export default function MenuDetails() {
 
   const fetchMenu = async () => {
     try {
-      const res = await axios.get(` https://test-550b.onrender.com/api/menu/${id}`);
+      const res = await axios.get(` https://test-1-5479.onrender.com/api/menu/${id}`);
       setMenu(res.data);
     } catch (err) {
       console.error("Failed to fetch menu:", err);
