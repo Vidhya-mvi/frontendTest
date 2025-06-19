@@ -12,7 +12,7 @@ export default function Header() {
       <div className="header-inner">
         <div className="logo">
           <img src={logo} alt="Logo" />
-          <span>
+          <span className="Logo">
             <strong>DEEP</strong> NET <span className="soft">SOFT</span>
           </span>
         </div>

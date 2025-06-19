@@ -38,7 +38,8 @@
 
 .logo .soft {
   color: #616161;
-  right: 112px;
+  right: 55px;
+  position: absolute;
 }
 
 .nav-links {
@@ -887,7 +888,7 @@ textarea {
 
 
   .menu-subtitle {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     padding: 0 1rem;
     text-align: center;
   }
