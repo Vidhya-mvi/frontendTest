@@ -23,7 +23,7 @@ export default function Menu() {
 
   const fetchMenus = async () => {
     try {
-      const res = await axios.get(" https://test-1-5479.onrender.com/api/menu");
+      const res = await axios.get(" https://test-1-5479.onrender.com/api/menu/all");
       let data = res.data;
 
       if (data.length === 0) {
