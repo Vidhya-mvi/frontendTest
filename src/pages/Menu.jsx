@@ -23,7 +23,7 @@ export default function Menu() {
 
   const fetchMenus = async () => {
     try {
-      const res = await axios.get("https://test-1-j9uq.onrender.com/api/menu");
+      const res = await axios.get(" https://test-550b.onrender.com/api/menu");
       let data = res.data;
 
       if (data.length === 0) {
@@ -61,7 +61,7 @@ export default function Menu() {
 
   const fetchMenuItems = async (menuId) => {
     try {
-      const res = await axios.get(`https://test-1-j9uq.onrender.com/api/menu/${menuId}`);
+      const res = await axios.get(` https://test-550b.onrender.com/api/menu/${menuId}`);
       setMenuItems(res.data.menuItems || []);
     } catch (err) {
       console.error("Error fetching menu items:", err);

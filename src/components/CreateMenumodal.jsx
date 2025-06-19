@@ -48,7 +48,7 @@ export default function CreateMenuModal({ onClose, onMenuCreated }) {
     }
 
     try {
-      const res = await axios.post("https://test-1-j9uq.onrender.com/api/menu", {
+      const res = await axios.post( "https://test-550b.onrender.com/api/menu", {
         data: {
           menu: {
             name: name.trim(),
